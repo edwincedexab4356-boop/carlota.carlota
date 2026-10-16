@@ -1,5 +1,6 @@
 import React from 'react';
 import { Search, Sparkles, Package, Clock, Heart } from 'lucide-react';
+import { fresasImg } from '../data/menuData';
 
 interface HeroBannerProps {
   searchQuery: string;
@@ -108,7 +109,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-stone-200/80 bg-white group">
               <img
-                src="/src/assets/images/carlota_fresas_con_crema_1792173641767.jpg"
+                src={fresasImg}
                 alt="Fresas con crema artesanales Carlota"
                 className="w-full h-80 sm:h-96 object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="eager"

@@ -1,3 +1,10 @@
+import fresasImg from '../assets/images/carlota_fresas_con_crema_1792173641767.jpg';
+import cuchareablesImg from '../assets/images/carlota_cuchareables_1792173644323.jpg';
+import wafflesImg from '../assets/images/carlota_waffles_fresas_1792173643617.jpg';
+import galletasImg from '../assets/images/carlota_galletas_artesanales_1792173643726.jpg';
+
+export { fresasImg, cuchareablesImg, wafflesImg, galletasImg };
+
 export interface MenuItem {
   id: string;
   name: string;
@@ -79,7 +86,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'fresas',
     description: 'Fresas frescas seleccionadas, cremosa receta de la casa y salsa de chocolate incluida.',
     price: 14000,
-    image: '/src/assets/images/carlota_fresas_con_crema_1792173641767.jpg',
+    image: fresasImg,
     badge: 'Popular',
     customizable: true,
     includedNotes: 'Incluye salsa de chocolate',
@@ -90,7 +97,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'fresas',
     description: 'Fresas frescas, crema artesanal, salsa de chocolate e incluye trozos de brownie húmedo.',
     price: 18000,
-    image: '/src/assets/images/carlota_fresas_con_crema_1792173641767.jpg',
+    image: fresasImg,
     badge: 'Recomendado',
     customizable: true,
     includedNotes: 'Incluye brownie y salsa de chocolate',
@@ -101,7 +108,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'fresas',
     description: 'Tamaño gigante para compartir. Fresas frescas, abundante crema, brownie y salsa de chocolate.',
     price: 22000,
-    image: '/src/assets/images/carlota_fresas_con_crema_1792173641767.jpg',
+    image: fresasImg,
     customizable: true,
     includedNotes: 'Incluye brownie y salsa de chocolate',
   },
@@ -111,7 +118,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'fresas',
     description: 'La experiencia definitiva: tazón completo con fresas, crema especial, brownie húmedo y Nutella original.',
     price: 24000,
-    image: '/src/assets/images/carlota_fresas_con_crema_1792173641767.jpg',
+    image: fresasImg,
     badge: 'Firma de la Casa',
     customizable: true,
     includedNotes: 'Incluye brownie, Nutella y salsa de chocolate',
@@ -124,7 +131,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'cuchareables',
     description: 'Nuestra especialidad insignia: suave crema de limón entre delicadas capas de galleta crujiente.',
     price: 10000,
-    image: '/src/assets/images/carlota_cuchareables_1792173644323.jpg',
+    image: cuchareablesImg,
     badge: 'Receta Secreta',
     customizable: false,
   },
@@ -134,7 +141,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'cuchareables',
     description: 'Postre cremoso frío con capas generosas de galleta Oreo troceada y topping especial.',
     price: 12000,
-    image: '/src/assets/images/carlota_cuchareables_1792173644323.jpg',
+    image: cuchareablesImg,
     customizable: false,
   },
   {
@@ -143,7 +150,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'cuchareables',
     description: 'Cremoso vasito con galletas Chokis y centro irresistible de chocolate.',
     price: 12000,
-    image: '/src/assets/images/carlota_cuchareables_1792173644323.jpg',
+    image: cuchareablesImg,
     customizable: false,
   },
   {
@@ -152,7 +159,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'cuchareables',
     description: 'Capas de suave crema pastelera artesanal y jugosos cubos de brownie de chocolate intenso.',
     price: 12000,
-    image: '/src/assets/images/carlota_cuchareables_1792173644323.jpg',
+    image: cuchareablesImg,
     customizable: false,
   },
   {
@@ -161,7 +168,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'cuchareables',
     description: 'El auténtico sabor del coco y barquillo crujiente Cocosette en una textura ultra cremosa.',
     price: 12000,
-    image: '/src/assets/images/carlota_cuchareables_1792173644323.jpg',
+    image: cuchareablesImg,
     customizable: false,
   },
   {
@@ -170,7 +177,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'cuchareables',
     description: 'Divertida combinación de galletitas minichis en crema suave.',
     price: 12000,
-    image: '/src/assets/images/carlota_cuchareables_1792173644323.jpg',
+    image: cuchareablesImg,
     customizable: false,
   },
 
@@ -181,7 +188,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'waffles',
     description: 'Waffle recién horneado con fresas frescas, crema chantilly y cremosa crema de avellanas.',
     price: 20000,
-    image: '/src/assets/images/carlota_waffles_fresas_1792173643617.jpg',
+    image: wafflesImg,
     badge: 'Favorito',
     customizable: true,
   },
@@ -191,7 +198,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'waffles',
     description: 'Delicada masa de crepe rellena y decorada con fresas frescas, crema y crema de avellanas.',
     price: 17000,
-    image: '/src/assets/images/carlota_waffles_fresas_1792173643617.jpg',
+    image: wafflesImg,
     customizable: true,
   },
 
@@ -202,7 +209,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'galletas',
     description: 'Horneada al punto: bordes crujientes, centro suave y rebozada de chips de chocolate.',
     price: 7000,
-    image: '/src/assets/images/carlota_galletas_artesanales_1792173643726.jpg',
+    image: galletasImg,
     customizable: false,
   },
   {
@@ -211,7 +218,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'galletas',
     description: 'Masa aterciopelada de cacao rojo con trozos de chocolate blanco cremoso.',
     price: 7000,
-    image: '/src/assets/images/carlota_galletas_artesanales_1792173643726.jpg',
+    image: galletasImg,
     customizable: false,
   },
   {
@@ -220,7 +227,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'galletas',
     description: 'Pura indulgencia con cacao puro y chispas de chocolate semi-amargo derretidas.',
     price: 7000,
-    image: '/src/assets/images/carlota_galletas_artesanales_1792173643726.jpg',
+    image: galletasImg,
     customizable: false,
   },
   {
@@ -229,7 +236,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'galletas',
     description: 'Elaborada con auténtica pasta de pistacho seleccionado y trozos crujientes.',
     price: 7000,
-    image: '/src/assets/images/carlota_galletas_artesanales_1792173643726.jpg',
+    image: galletasImg,
     badge: 'Gourmet',
     customizable: false,
   },
@@ -239,7 +246,7 @@ export const MENU_ITEMS: MenuItem[] = [
     category: 'galletas',
     description: 'Combina tus 4 sabores favoritos en una elegante caja para regalar o disfrutar.',
     price: 24000,
-    image: '/src/assets/images/carlota_galletas_artesanales_1792173643726.jpg',
+    image: galletasImg,
     badge: 'Ahorra $4k',
     customizable: true,
     type: 'cookie_box',
