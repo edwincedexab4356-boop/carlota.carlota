@@ -1,0 +1,6 @@
+{
+  "name": "Carlota - Catálogo Digital",
+  "description": "Catálogo digital interactivo y menú de postres, fresas con crema, cuchareables, waffles, galletas y bebidas de Carlota.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
